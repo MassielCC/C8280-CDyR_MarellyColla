@@ -3,6 +3,7 @@ Ejecute los comandos en Colcac
 # Navegación
 ## Pwd, cd, ls
 ![Comandos](imgP/imag1.png)
+![ls comand](imgP/ls.png)
 
 ## less
 Programa que te muestra archivos de texto. Muestra 1 página a la vez. 
@@ -10,9 +11,13 @@ Programa que te muestra archivos de texto. Muestra 1 página a la vez.
 ## file
 Muestra el tipo de archivo para saber si podemos visualizarlo con less como: ASCII text, bash script, HTML
 
+![archivos](imgP/archivos.png)
+
 # Manipular archivos
-mkdir < dir>: Crear directorios
-touch < new.txt>: Crear archivos nuevos
+* mkdir < dir>: Crear directorios
+
+* touch < new.txt>: Crear archivos nuevos
+![touch comand](imgP/touch.png)
 
 **Caracteres especiales**
 También llamados wildcards, se pueden usar en conjunto con otros comandos
@@ -25,10 +30,12 @@ También llamados wildcards, se pueden usar en conjunto con otros comandos
 * cp "file1" "file2": Copiar un archivo file1 en un archivo file2. Si el 2 no existe entonces es creado. Si existe, se sobreescribe con el contenido de 1
 
 * mv "file1" "file2": Renombra el archivo. Si file2 existe, se sobreescriben sus contenidos.
+![mv comand](imgP/mv.png)
  
 * mv "file" "dir": Mover un archivo a otro directorio. 
 
 * rm "file": Borrar un archivo o directorio
+![borrar](imgP/borrar_archivos.png)
 
 # Comandos
 Hay 4 tipos:
@@ -39,21 +46,21 @@ Hay 4 tipos:
 
 ## type
 Builtin function que muestra el tipo de comando que el shell va a ejecutar
-
 ## which
 Determinar la ubicación exacta de un determinado programa ejecutable
-
 ## help
 Muestra la documentación del comando
-
 ## man
 Documentación formal
+
+![comandos](imgP/info.png)
 
 # I/O Redirection
 Con notaciones especiales se puede redireccionar las salidas de los comandos a archivos o dispositivos 
 
 # Standard Output
 Por defecto dirige su contenido a la pantalla, Para redirigir la salida estándar a un archivo se usa > Cada vez que se ejecuta el archivo se sobreescribe.
+![Output](imgP/standard-Output.png)
 
 # Standard Input
 Por defecto obtiene la entrada del teclado pero se puede redireccionar para obtenerlo de un archivo con
@@ -99,3 +106,6 @@ Linux ejecuta multiples procesos simultaneamente. Algunos comando usados para co
 - kill *PID*: Terminar un proceso
 - bg: Poner un proceso en el background
 - fg: Poner un proceso en el foreground=primer plano
+
+En Windows
+![tasklist](imgP/tasklist.png)
