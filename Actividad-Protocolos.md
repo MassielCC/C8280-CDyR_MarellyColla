@@ -8,5 +8,5 @@
 |Requisitos de confirmación o acuese de recibo| Se puede ver confirmaciones de lectura |
 ## Preguntas
 #### **1** Si, solo canbiaría el contenido del mensaje los protocolos no se verían afectados
-#### **2** Dificultaría la comunicación, el mensaje enviado tal vez podría llegar al destino pero el receptop no podría comprenderlo.
+#### **2** Dificultaría la comunicación, el mensaje enviado tal vez podría llegar al destino pero el receptor no podría comprenderlo.
 #### **3** Deberían haber diferencias, es difícil que los protocolos pensamos por 2 personas sean idénticos. Sí, estas diferencias podrían ocasionar problemas dependiendo de que tan diferentes son.
