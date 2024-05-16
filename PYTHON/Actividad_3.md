@@ -76,7 +76,7 @@ def cifrado_cesar(texto, desplazamiento):
 
 **Algoritmo RSA**
 Trabaja con una llave pública y privada
-
+Usa números primos muy grandes para obtener sus llaves públicas y privadas, su dificultad radica en adivinar estos números primos.
 
 ---
 
@@ -87,18 +87,3 @@ Trabaja con una llave pública y privada
 ![Cifrado Vigenere](https://edea.juntadeandalucia.es/bancorecursos/file/861144ef-7413-4512-9eea-7fe25098db20/1/CDI_1BAC_REA02_V01.zip/Cuadro_Vigenere.png)
 
 El cifrado César es fácil de entender ya que el desplazamiento es el mismo para cada letra, es suficiente que descifremos el desplazamiento de 1 letra y ya tenemos todo la frase descifrada. Sin embargo con el cifrado Vigenere hay 1 desplazamiento diferente por cada letra, lo que supone una mejora en la seguridad de la encriptación de nuestro mensaje. 
-
----
-
-## Problema 4: Simulación del modelo OSI
-Conceptos: Modelo OSI, Encapsulación de Datos, Protocol Stack
-
-Desarrolla una serie de funciones que simulan la transmisión de datos a través de las diferentes capas del modelo OSI, mostrando cómo se encapsulan y desencapsulan los datos en cada capa.
-
-Implementa funciones que representen cada capa del modelo OSI.
-Simula el proceso de encapsulación y desencapsulación de datos.
-
-## Ejercicios adicionales para extender el uso
-- Implementa un mecanismo para manejar errores en cada capa.
-- Simula más detalles de cada capa, por ejemplo, manejar la segmentación en la capa de transporte o las direcciones IP en la capa de red.
-- Utiliza estas funciones en combinación con sockets para enviar y recibir datos a través de una red real, manteniendo la simulación de encapsulación y desencapsulación.
