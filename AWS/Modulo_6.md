@@ -22,6 +22,8 @@ El par de claves vockey que has seleccionado te permitirá conectarte a esta ins
 ## Tarea 7: Detalles avanzados
 ![Datos de usuario](image-31.png)
 
+nota: systemctl enable ? Habilitar un servicio para que inicie al arrancar el sistema 
+
 ## Tarea 8: Revisar la instancia y lanzarla
 ![Detalles de instancia](image-32.png)
 
